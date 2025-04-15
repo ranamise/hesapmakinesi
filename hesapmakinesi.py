@@ -13,3 +13,14 @@ def palindrom_kontrol(kelime):
 
 def yas_hesapla(yas):
     return 100 - yas
+
+t, f, c, b = hesap_makinesi(10, 5)
+print("Toplam:", t)
+print("Fark:", f)
+print("Çarpım:", c)
+print("Bölüm:", b)
+
+print(palindrom_kontrol("kek"))
+print(palindrom_kontrol("masa"))
+
+print("100 yaşına", yas_hesapla(25), "yıl sonra ulaşırsın.") 
